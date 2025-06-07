@@ -1,4 +1,4 @@
-# TTLCacheNet: LSTM 기반 캐시 TTL 최적화 시스템
+# TTLCacheNet: 캐시 TTL 최적화 시스템
 
 ## 📌 개요
 **TTLCacheNet**는 요청 패턴을 학습해 미래의 객체 요청을 예측하고,
@@ -40,4 +40,6 @@ ttl = (predicted_prob / predicted_prob.max()) * max_ttl
 <img src=https://github.com/user-attachments/assets/e7e3062f-c33a-4812-9548-21e2f3f93ee7 width=40% height=40%>
 
 ## 👩‍💻 Contributors
-- 기반 논문: DeepCache: A Deep Learning Based Inference Caching Framework for Content Delivery
+기반 논문
+- DeepCache: A Deep Learning Based Inference Caching Framework for Content Delivery
+- A Learning-Based Caching Mechanism for Edge Content Delivery
